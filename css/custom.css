@@ -1,0 +1,232 @@
+html,body{
+    overflow-x: hidden;
+}
+
+#remove_row{
+    width:100%;
+}
+
+.footer-dark{
+    background:#000;
+    color:#fff;
+    width:80%;
+    margin-top:45px;
+    /* border-top-left-radius: 20px; */
+    border-top-right-radius: 20px;
+    padding:20px 10px;
+}
+
+.promo-home-img{
+    
+    background-image:url('../images/home/blue-banner.jpg');
+     background-size:cover; 
+     background-repeat:no-repeat; 
+     padding:150px 0;
+}
+
+.promo-home-img .content h3{
+    color:#fff;
+    
+}
+
+.promo-home-img .content{
+    color:#fff;
+    padding-right:35px;
+}
+
+.news-form button span {
+    background: #000;
+}
+.red-promo-img{
+    background-image:url('../images/home/banner2.jpg'); background-repeat:no-repeat;
+}
+
+.blue-promo-img{
+    padding:20px;
+    background-image:url('../images/home/banner1.jpg'); background-repeat:no-repeat;
+}
+
+/* Mobile css */
+@media only screen and (min-width:360px) and (max-width:768px){
+    
+    /*Mobile rsponsive table*/
+    
+    
+    .main-images-prod{
+        width: 400px !important;
+        height: 320px !important;
+    }
+    
+    .category-image{
+        width:155px !important;
+    }
+    .red-promo-img{
+        background-position: right;
+    }
+    .blue-promo-img{
+        background-position: right;
+    }
+    .footer-dark{
+        margin-top:15px;
+        padding:20px 10px 50px 10px;
+    }
+    .promo-home-img{
+        background-position: right;
+    }
+   
+    .promo-home-img .content{
+        padding:0 30px 0 30px;
+      
+    }
+    
+    
+}
+
+.product-images-cart{
+    width:100px;
+    height: 100px;
+  
+}
+
+.product-images-cart img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .custom-responsive-table {
+    border: 0;
+  }
+
+  .custom-responsive-table caption {
+    font-size: 1.3em;
+  }
+  
+  .custom-responsive-table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .custom-responsive-table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  .custom-responsive-table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  .custom-responsive-table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .custom-responsive-table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+.c_white{
+    color:#fff;
+}
+
+.c_white a:hover{
+    color:#fff !important; 
+}
+
+
+		.feedback {
+  background-color : #4cc2c0;
+  color: white;
+  padding: 20px 20px;
+  width:61px;
+  height:61px;
+  border-radius: 50%;
+  font-size:27px;
+  border-color: #4cc2c0;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 19px;
+  right: 19px;
+  z-index:100;
+  display:none;
+}
+
+#mywhtasappbutton{
+	position: fixed;
+  bottom: 19px;
+  right: 89px;
+  z-index:100;
+  display:none;	
+}
+
+.tooltiptext {
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    right: 120%
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+
+.feedback-whatsapp{
+
+    width: 100%;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+@media only screen and (min-width:360px) and (max-width:768px){
+	#mybutton {
+    position: fixed;
+    bottom: 3vh; 
+    z-index: 100;
+}
+#mywhtasappbutton{
+	    bottom: 14vh;
+    right: 11px;
+    z-index: 100;
+}
+}
+
+
+
+
+

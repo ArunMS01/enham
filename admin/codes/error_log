@@ -1,0 +1,1008 @@
+[03-Mar-2022 15:56:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function mailsend() on null in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/orders.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/orders.php on line 21
+[03-Mar-2022 15:59:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function mailsend() on null in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/orders.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/orders.php on line 21
+[06-Mar-2022 06:36:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/controllers/OrderController.php:69) in /home/ictdzfbe/public_html/gyangreedy.com/dento/config/app.php on line 18
+[06-Mar-2022 20:13:36 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/product.php on line 158
+[06-Mar-2022 20:13:46 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/product.php on line 158
+[07-Mar-2022 21:09:34 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/controllers/ProductController.php:46) in /home/ictdzfbe/public_html/gyangreedy.com/dento/config/app.php on line 18
+[07-Mar-2022 21:40:29 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/controllers/ProductController.php:37) in /home/ictdzfbe/public_html/gyangreedy.com/dento/config/app.php on line 18
+[10-Mar-2022 19:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function index() in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 14
+[10-Mar-2022 19:13:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function index() in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 16
+[10-Mar-2022 19:20:22 UTC] PHP Notice:  Undefined variable: final_filename in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 59
+[10-Mar-2022 19:20:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:59) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 59
+[10-Mar-2022 19:20:22 UTC] PHP Notice:  Undefined variable: writer in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 60
+[10-Mar-2022 19:20:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 60
+[10-Mar-2022 19:22:20 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 65
+[10-Mar-2022 19:22:51 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 65
+[10-Mar-2022 19:23:18 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 65
+[10-Mar-2022 19:24:22 UTC] PHP Notice:  Undefined variable: spreadsheet in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 55
+[10-Mar-2022 19:24:22 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Writer\Csv::__construct() must be an instance of PhpOffice\PhpSpreadsheet\Spreadsheet, null given, called in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 55 and defined in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Csv.php:79
+Stack trace:
+#0 /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php(55): PhpOffice\PhpSpreadsheet\Writer\Csv->__construct(NULL)
+#1 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Csv.php on line 79
+[10-Mar-2022 19:25:36 UTC] PHP Notice:  Array to string conversion in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 20
+[10-Mar-2022 19:25:36 UTC] PHP Notice:  Array to string conversion in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 20
+[10-Mar-2022 19:25:36 UTC] PHP Notice:  Array to string conversion in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 20
+[10-Mar-2022 19:25:36 UTC] PHP Notice:  Array to string conversion in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 20
+[10-Mar-2022 19:25:36 UTC] PHP Notice:  Array to string conversion in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 20
+[10-Mar-2022 19:25:36 UTC] PHP Notice:  Array to string conversion in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 20
+[10-Mar-2022 19:25:36 UTC] PHP Notice:  Undefined variable: spreadsheet in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 58
+[10-Mar-2022 19:25:36 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Writer\Csv::__construct() must be an instance of PhpOffice\PhpSpreadsheet\Spreadsheet, null given, called in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 58 and defined in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Csv.php:79
+Stack trace:
+#0 /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php(58): PhpOffice\PhpSpreadsheet\Writer\Csv->__construct(NULL)
+#1 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Csv.php on line 79
+[10-Mar-2022 19:25:55 UTC] PHP Notice:  Undefined variable: spreadsheet in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 58
+[10-Mar-2022 19:25:55 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpOffice\PhpSpreadsheet\Writer\Csv::__construct() must be an instance of PhpOffice\PhpSpreadsheet\Spreadsheet, null given, called in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 58 and defined in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Csv.php:79
+Stack trace:
+#0 /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php(58): PhpOffice\PhpSpreadsheet\Writer\Csv->__construct(NULL)
+#1 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Csv.php on line 79
+[10-Mar-2022 19:46:46 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 120
+[16-Mar-2022 07:58:32 UTC] PHP Notice:  Undefined variable: final_filename in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 117
+[16-Mar-2022 07:58:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:117) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 117
+[16-Mar-2022 07:58:32 UTC] PHP Notice:  Undefined variable: writer in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 118
+[16-Mar-2022 07:58:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 118
+[30-Mar-2022 00:09:40 UTC] PHP Notice:  Undefined variable: final_filename in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 61
+[30-Mar-2022 00:09:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:61) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 61
+[30-Mar-2022 00:09:40 UTC] PHP Notice:  Undefined variable: writer in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 62
+[30-Mar-2022 00:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 62
+[30-Mar-2022 00:09:40 UTC] PHP Notice:  Undefined variable: final_filename in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 61
+[30-Mar-2022 00:09:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:61) in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 61
+[30-Mar-2022 00:09:40 UTC] PHP Notice:  Undefined variable: writer in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 62
+[30-Mar-2022 00:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/public_html/gyangreedy.com/dento/admin/codes/export-orders.php on line 62
+[07-Jul-2022 09:06:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrderController::update_order_item_status(), 2 passed in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php on line 16 and exactly 3 expected in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/OrderController.php:71
+Stack trace:
+#0 /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php(16): OrderController->update_order_item_status('46', 'Cancelled')
+#1 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/OrderController.php on line 71
+[07-Jul-2022 09:09:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/OrderController.php:73) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[07-Jul-2022 09:10:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/OrderController.php:73) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[07-Jul-2022 09:11:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/OrderController.php:73) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[07-Jul-2022 09:13:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php:22) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[07-Jul-2022 12:00:54 UTC] PHP Warning:  include_once(../controllers/SubCategoryController.php): failed to open stream: No such file or directory in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:00:54 UTC] PHP Warning:  include_once(): Failed opening '../controllers/SubCategoryController.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:00:54 UTC] PHP Fatal error:  Uncaught Error: Class 'SubcategoryController' not found in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 44
+[07-Jul-2022 12:01:32 UTC] PHP Warning:  include_once(../controllers/SubCategoryController.php): failed to open stream: No such file or directory in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:01:32 UTC] PHP Warning:  include_once(): Failed opening '../controllers/SubCategoryController.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:01:32 UTC] PHP Fatal error:  Uncaught Error: Class 'SubcategoryController' not found in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 44
+[07-Jul-2022 12:06:35 UTC] PHP Warning:  include_once(../controllers/SubCategoryController.php): failed to open stream: No such file or directory in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:06:35 UTC] PHP Warning:  include_once(): Failed opening '../controllers/SubCategoryController.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:06:35 UTC] PHP Fatal error:  Uncaught Error: Class 'SubcategoryController' not found in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 44
+[07-Jul-2022 12:09:48 UTC] PHP Warning:  include_once(../controllers/SubCategoryController.php): failed to open stream: No such file or directory in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:09:48 UTC] PHP Warning:  include_once(): Failed opening '../controllers/SubCategoryController.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:09:48 UTC] PHP Fatal error:  Uncaught Error: Class 'SubcategoryController' not found in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 44
+[07-Jul-2022 12:10:18 UTC] PHP Warning:  include_once(../controllers/SubCategoryController.php): failed to open stream: No such file or directory in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:10:18 UTC] PHP Warning:  include_once(): Failed opening '../controllers/SubCategoryController.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 3
+[07-Jul-2022 12:10:18 UTC] PHP Fatal error:  Uncaught Error: Class 'SubcategoryController' not found in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/subcategory-code.php on line 44
+[07-Jul-2022 12:12:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/SubcategoryController.php:57) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[07-Jul-2022 13:39:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/CategoryController.php:148) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[07-Jul-2022 13:41:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/CategoryController.php:148) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[07-Jul-2022 13:42:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/CategoryController.php:149) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[14-Jul-2022 14:06:38 UTC] PHP Notice:  Undefined variable: content in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php on line 34
+[14-Jul-2022 14:15:01 UTC] PHP Notice:  Undefined variable: content in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php on line 108
+[27-Jul-2022 08:26:33 UTC] PHP Fatal error:  Redefinition of parameter $orderId in /home/ictdzfbe/maidenstride.in/enham/web1/admin/controllers/ShiprocketController.php on line 505
+[27-Jul-2022 08:26:38 UTC] PHP Fatal error:  Redefinition of parameter $orderId in /home/ictdzfbe/maidenstride.in/enham/web1/admin/controllers/ShiprocketController.php on line 505
+[27-Jul-2022 08:40:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web1/admin/controllers/ShiprocketController.php:533) in /home/ictdzfbe/maidenstride.in/enham/web1/config/app.php on line 18
+[28-Jul-2022 05:58:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 214
+[28-Jul-2022 05:58:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 215
+[28-Jul-2022 05:58:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:214) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[28-Jul-2022 06:00:09 UTC] PHP Notice:  Undefined index: shipment_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 197
+[28-Jul-2022 06:00:09 UTC] PHP Notice:  Undefined index: order_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 198
+[28-Jul-2022 06:00:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:197) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[28-Jul-2022 06:00:59 UTC] PHP Notice:  Undefined index: shipment_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 197
+[28-Jul-2022 06:00:59 UTC] PHP Notice:  Undefined index: order_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 198
+[28-Jul-2022 06:00:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:194) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[28-Jul-2022 06:17:15 UTC] PHP Notice:  Array to string conversion in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 204
+[28-Jul-2022 06:18:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:197) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[28-Jul-2022 06:23:31 UTC] PHP Notice:  Undefined variable: update_trackingid in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 79
+[28-Jul-2022 06:23:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:204) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[28-Jul-2022 06:34:20 UTC] PHP Parse error:  syntax error, unexpected '$shipment_id' (T_VARIABLE) in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 217
+[28-Jul-2022 06:44:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:78) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[29-Jul-2022 07:12:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 218
+[29-Jul-2022 07:12:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 219
+[29-Jul-2022 07:12:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:218) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[29-Jul-2022 07:13:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 218
+[29-Jul-2022 07:13:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 219
+[29-Jul-2022 07:13:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:218) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[29-Jul-2022 07:15:56 UTC] PHP Notice:  Undefined variable: shipment_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 222
+[29-Jul-2022 07:15:56 UTC] PHP Notice:  Undefined variable: shiporder_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 222
+[29-Jul-2022 07:15:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:222) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[29-Jul-2022 07:16:32 UTC] PHP Notice:  Undefined variable: shipment_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 222
+[29-Jul-2022 07:16:32 UTC] PHP Notice:  Undefined variable: shiporder_id in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 222
+[29-Jul-2022 07:16:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:195) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[29-Jul-2022 07:17:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:195) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[29-Jul-2022 12:08:07 UTC] PHP Notice:  Undefined variable: update_trackingid in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 733
+[29-Jul-2022 12:08:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php:733) in /home/ictdzfbe/maidenstride.in/enham/web/config/app.php on line 18
+[29-Jul-2022 12:12:15 UTC] PHP Notice:  Undefined variable: orderDate in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/ShiprocketController.php on line 608
+[30-Jul-2022 07:48:13 UTC] PHP Fatal error:  Uncaught Error: Class 'AdminController' not found in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php on line 168
+[30-Jul-2022 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Class 'AdminController' not found in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php on line 168
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 107
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 108
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 109
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 110
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Undefined variable: orders in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[30-Jul-2022 07:49:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ictdzfbe/maidenstride.in/enham/web/admin/controllers/AdminController.php on line 111
+[27-Aug-2022 15:53:09 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): <br />\r\n<b>Warning</b>:  Undefined variable $ship_email in <b>/home/ictdzfbe/maidenstride.in/enham/web/admin/edit-order.php</b> on line <b>327</b><br />\r\n in /home/ictdzfbe/maidenstride.in/enham/web/Mails/vendor/phpmailer/phpmailer/src/PHPMailer.php:1090
+Stack trace:
+#0 /home/ictdzfbe/maidenstride.in/enham/web/Mails/vendor/phpmailer/phpmailer/src/PHPMailer.php(1012): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '<br />\\r\\n<b>Wa...', '')
+#1 /home/ictdzfbe/maidenstride.in/enham/web/Mails/MailController.php(20): PHPMailer\PHPMailer\PHPMailer->addAddress('<br />\\r\\n<b>Wa...')
+#2 /home/ictdzfbe/maidenstride.in/enham/web/admin/codes/orders.php(81): MailController->mailsend('<p>Your Order N...', '<br />\\r\\n<b>Wa...', 'Order Status')
+#3 {main}
+  thrown in /home/ictdzfbe/maidenstride.in/enham/web/Mails/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1090
+[31-Aug-2022 06:33:05 UTC] PHP Notice:  Undefined variable: final_filename in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 70
+[31-Aug-2022 06:33:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bellsgym/enham.in/admin/codes/export-orders.php:70) in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 70
+[31-Aug-2022 06:33:05 UTC] PHP Notice:  Undefined variable: writer in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 71
+[31-Aug-2022 06:33:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in /home/bellsgym/enham.in/admin/codes/export-orders.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 71
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_title in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 115
+[07-Sep-2022 12:54:55 UTC] PHP Notice:  Undefined index: meta_desc in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 116
+[07-Sep-2022 12:54:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bellsgym/enham.in/admin/codes/export-orders.php:115) in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 133
+[07-Sep-2022 12:54:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bellsgym/enham.in/admin/codes/export-orders.php:115) in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 134
+[07-Sep-2022 14:29:59 UTC] PHP Notice:  Undefined variable: order_year in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 20
+[07-Sep-2022 14:29:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bellsgym/enham.in/admin/codes/export-orders.php:20) in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 71
+[07-Sep-2022 14:29:59 UTC] PHP Notice:  Undefined variable: final_filename in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 72
+[07-Sep-2022 14:29:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bellsgym/enham.in/admin/codes/export-orders.php:20) in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 72
+[07-Sep-2022 14:29:59 UTC] PHP Notice:  Undefined variable: writer in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 73
+[07-Sep-2022 14:29:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in /home/bellsgym/enham.in/admin/codes/export-orders.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 73
+[07-Sep-2022 14:31:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function OrderController::export(), 2 passed in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 20 and exactly 3 expected in /home/bellsgym/enham.in/admin/controllers/OrderController.php:28
+Stack trace:
+#0 /home/bellsgym/enham.in/admin/codes/export-orders.php(20): OrderController->export('2022-09-07', '2022-09-01')
+#1 {main}
+  thrown in /home/bellsgym/enham.in/admin/controllers/OrderController.php on line 28
+[07-Sep-2022 14:55:22 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bellsgym/enham.in/admin/codes/change-admin-password.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/change-admin-password.php on line 11
+[07-Sep-2022 14:55:49 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bellsgym/enham.in/admin/codes/change-admin-password.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/change-admin-password.php on line 11
+[07-Sep-2022 14:56:24 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bellsgym/enham.in/admin/codes/change-admin-password.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/change-admin-password.php on line 13
+[07-Sep-2022 14:57:20 UTC] PHP Fatal error:  Uncaught Error: Class 'DatabaseConnection' not found in /home/bellsgym/enham.in/admin/codes/change-admin-password.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/change-admin-password.php on line 4
+[07-Sep-2022 14:58:40 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bellsgym/enham.in/admin/codes/change-admin-password.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/change-admin-password.php on line 6
+[07-Sep-2022 14:59:27 UTC] PHP Fatal error:  Uncaught Error: Class 'DatabaseConnection' not found in /home/bellsgym/enham.in/admin/codes/change-admin-password.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/change-admin-password.php on line 4
+[14-Sep-2022 08:15:13 UTC] PHP Notice:  Undefined variable: final_filename in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 73
+[14-Sep-2022 08:15:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bellsgym/enham.in/admin/codes/export-orders.php:73) in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 73
+[14-Sep-2022 08:15:13 UTC] PHP Notice:  Undefined variable: writer in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 74
+[14-Sep-2022 08:15:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function save() on null in /home/bellsgym/enham.in/admin/codes/export-orders.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/bellsgym/enham.in/admin/codes/export-orders.php on line 74
+[21-Oct-2022 14:04:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method BulkshipmentController::dateDiffInDays() in /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php:313
+Stack trace:
+#0 /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php(133): BulkshipmentController->generateToken()
+#1 /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php(116): BulkshipmentController->shipOrder(Object(mysqli_result), Array)
+#2 /home/bellsgym/enham.in/admin/codes/multiple-shipped-orders.php(18): BulkshipmentController->makeShipmentbyorderid('15943825143')
+#3 {main}
+  thrown in /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php on line 313
+[21-Oct-2022 14:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method BulkshipmentController::dateDiffInDays() in /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php:313
+Stack trace:
+#0 /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php(133): BulkshipmentController->generateToken()
+#1 /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php(116): BulkshipmentController->shipOrder(Object(mysqli_result), Array)
+#2 /home/bellsgym/enham.in/admin/codes/multiple-shipped-orders.php(18): BulkshipmentController->makeShipmentbyorderid('15943825143')
+#3 {main}
+  thrown in /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php on line 313
+[21-Oct-2022 14:07:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method BulkshipmentController::dateDiffInDays() in /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php:313
+Stack trace:
+#0 /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php(133): BulkshipmentController->generateToken()
+#1 /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php(116): BulkshipmentController->shipOrder(Object(mysqli_result), Array)
+#2 /home/bellsgym/enham.in/admin/codes/multiple-shipped-orders.php(18): BulkshipmentController->makeShipmentbyorderid('15943825143')
+#3 {main}
+  thrown in /home/bellsgym/enham.in/admin/controllers/BulkshipmentController.php on line 313
